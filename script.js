@@ -73,7 +73,8 @@ const albums = [{title: "Midnight Marauders", artist: "A Tribe Called Quest"}, {
 {title: "Lemonade", artist: "Beyonce"}, {title: "What's Going On", artist: "Marvin Gaye"}, {title: "Trouble Man", artist: "Marvin Gaye"},
 {title: "Midnight Love", artist: "Marvin Gaye"}, {title: "Under Twenty Five", artist: "ENNY"}, {title: "Revolver", artist: "The Beatles"},
 {title: "DROGAS WAVE", artist: "Lupe Fiasco"}, {title: "Avantdale Bowling Club", artist: "Avantdale Bowling Club"}, {title: "LIL BIG MAN", artist: "Maxo"},
-{title: "Punisher", artist: "Phoebe Bridgers"}, {title: "Big Femme Energy Volume 1", artist: "Femme It Forward"}, {title: "Bo Jackson", artist: "Boldy James, The Alchemist"}];
+{title: "Punisher", artist: "Phoebe Bridgers"}, {title: "Big Femme Energy Volume 1", artist: "Femme It Forward"}, {title: "Bo Jackson", artist: "Boldy James, The Alchemist"},
+{title: "Guns", artist: "Quelle Chris"}];
 
 const mentors = ["Rick Rubin", "Sam Esmail", "George Monbiot", "Peter Joseph", "Seth Rogan", "Mac Miller", "Earl Sweatshirt", "Kendrick Lamar", "Noname", "Little Simz",
 "Alex Honnald", "Tommy Caldwell", "Rutger Bregman", "Yanis Varoufakis", "Rupert Sheldrake", "Nassim Haramein", "Michael Pollan", "Ram Dass", "Terence McKenna", "Russell Brand",
