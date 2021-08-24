@@ -61,3 +61,16 @@ const taoisms = ["Free from desire, you realise the mystery.\nCaught in desire, 
 "The Master can keep giving\nbecause there is no end to her wealth.\nShe acts without expectation,\nsucceeds without taking credit,\nand doesn't think that she is better\nthan anyone else.",
 "Failure is an opportunity.\n\nTherefore the Master\nfulfils her own obligations\nand corrects her own mistakes.\nShe does what she needs to do\nand demands nothing of others.",
 "True words aren't eloquent;\neloquent words aren't true.\nTrue words seem paradoxical\nWise men don't need to prove their point;\nmen who need to prove their point aren't wise.\n\nThe Master has no possessions.\nThe more he does for others,\nthe happier he is.\nThe more he gives to others,\nthe wealthier he is."];
+
+const albums = [{title: "Midnight Marauders", artist: "A Tribe Called Quest"}, {title: "Ultra Mono", artist: "IDLES"}, {title: "Brutalism", artist: "IDLES"},
+{title: "So The Flies Don't Come", artist: "Milo, Kenny Segal"}, {title: "Sad Night Dynamite", artist: "Sad Night Dynamite"}, {title: "What Kinda Music", artist: "Tom Misch, Yussef Dayes"},
+{title: "Black Pumas", artist: "Black Pumas"}, {title: "Shiroi", artist: "Mansur Brown"}, {title: "Collapsed in Sunbeams", artist: "Arlo Parks"},
+{title: "Fetch The Bolt Cutters", artist: "Fiona Apple"}, {title: "The Powers That B", artist: "Death Grips"}, {title: "Bottomless Pit", artist: "Death Grips"},
+{title: "Pray For Haiti", artist: "Mach-Hommy"}, {title: "Cosmogramma", artist: "Flying Lotus"}, {title: "Run The Jewels 2", artist: "Run The Jewels"},
+{title: "4eva Is A Mighty Long Time", artist: "Big K.R.I.T."}, {title: "Veteran", artist: "JPEGMAFIA"}, {title: "Lonerism", artist: "Tame Impala"},
+{title: "Pinata", artist: "Freddie Gibbs"}, {title: "Donuts", artist: "J Dilla"}, {title: "Manonmars", artist: "Manonmars"},
+{title: "Harry Styles", artist: "Harry Styles"}, {title: "Fine Line", artist: "Harry Styles"}, {title: "Toast", artist: "Pond"},
+{title: "Lemonade", artist: "Beyonce"}, {title: "What's Going On", artist: "Marvin Gaye"}, {title: "Trouble Man", artist: "Marvin Gaye"},
+{title: "Midnight Love", artist: "Marvin Gaye"}, {title: "Under Twenty Five", artist: "ENNY"}, {title: "Revolver", artist: "The Beatles"},
+{title: "DROGAS WAVE", artist: "Lupe Fiasco"}, {title: "Avantdale Bowling Club", artist: "Avantdale Bowling Club"}, {title: "LIL BIG MAN", artist: "Maxo"},
+{title: "Punisher", artist: "Phoebe Bridgers"}, {title: "Big Femme Energy Volume 1", artist: "Femme It Forward"}, {title: "Bo Jackson", artist: "Boldy James, The Alchemist"}];
