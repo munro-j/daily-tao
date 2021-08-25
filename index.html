@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Tao</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Daily Tao</h1>
-    <h3>Get a daily mentor, music prescription and dose of ancient wisdom!</h3>
+    <h3>Get your daily mentor, music prescription and dose of ancient wisdom!</h3>
 
-    <section id="display-area">
-        <p class="display-p">Your album of the day is: <span id="album"></span><span id="artist"></span></p>
-        <p class="display-p">Your mentor for today is: <span id="mentor"></span></p>
-        <p class="display-p">And here's your daily dose of ancient wisdom:<br><span id="tao"></span></p>
+    <section class="display">
+        <p class="display" id="ap"></p>
+        <p><span id="album" class="sp"></span>&nbsp;<span id="artist" class="sp"></span></p>
+
+        <p class="display" id="mp"></p>
+        <span id="mentor" class="sp"></span>
+
+        <p class="display" id="tp"></p>
+        <pre id="tao" class="sp"></pre>
     </section>
 
     <button type="button" id="btn">Generate Daily Tao</button>

@@ -1,3 +1,7 @@
-#display-area {
-    display: none;
+.display {
+    display: block;
+}
+
+.sp {
+    display: inline-block;
 }

@@ -83,14 +83,31 @@ const mentors = ["Rick Rubin", "Sam Esmail", "George Monbiot", "Peter Joseph", "
 "Jiddu Krishnamurti", "Jacque Fresco"];
 
 
-const generateMessage = (taoisms, albums, mentors) => {
-    const randTaoism = taoisms[Math.floor(Math.random() * taoisms.length)];
-    const randAlbum = albums[Math.floor(Math.random() * albums.length)];
-    const randMentor = mentors[Math.floor(Math.random() * mentors.length)];
+const randomMessage = arr => {
+    return arr[Math.floor(Math.random() * arr.length)];
+};
 
-    console.log(`Your album of the day is: ${randAlbum.title} by ${randAlbum.artist}\n\n
-    Your mentor for today is: ${randMentor}\n\n
-    And here's your daily dose of ancient wisdom:\n${randTaoism}`);
+const generateMessage = () => {
+    const randomTaoism = randomMessage(taoisms);
+    const randomAlbum = randomMessage(albums);
+    const randomMentor = randomMessage(mentors);
+
+    document.getElementById("ap").innerHTML = "Your album of the day is:";
+    document.getElementById("album").innerHTML = randomAlbum.title;
+    document.getElementById("artist").innerHTML = `by ${randomAlbum.artist}`;
+
+    document.getElementById("mp").innerHTML = "Your mentor for today is:";
+    document.getElementById("mentor").innerHTML = randomMentor;
+
+    document.getElementById("tp").innerHTML = "And here's your daily dose of ancient wisdom:";
+    document.getElementById("tao").innerHTML = randomTaoism;
 }
 
-document.getElementById("btn").addEventListener("click", generateMessage(taoisms, albums, mentors));
+document.getElementById("btn").addEventListener("click", function() {
+    generateMessage();
+    document.getElementById("btn").innerHTML = "Generate Another Daily Tao";
+});
+
+
+// Robin Cahart-Harris
+// Alexander Beiner
