@@ -80,7 +80,7 @@ const mentors = ["Rick Rubin", "Sam Esmail", "George Monbiot", "Peter Joseph", "
 "Alex Honnald", "Tommy Caldwell", "Rutger Bregman", "Yanis Varoufakis", "Rupert Sheldrake", "Nassim Haramein", "Michael Pollan", "Ram Dass", "Terence McKenna", "Russell Brand",
 "Eckhart Tolle", "Gabor Mate", "Jordan Peterson", "Robert Sapolsky", "Akala", "Carl Jung", "Sam Harris", "Thomas Brag", "Stephen Fry", "Wim Hof", "Bo Burnham", "Marc Rebillet",
 "Elizabeth Gilbert", "Naomi Klein", "Brian Cox", "Killer Mike", "Viggo Mortensen", "David Attenborough", "Tim Ferriss", "Susan Cain", "Leo Babauta", "Mark Ronson",
-"Jiddu Krishnamurti", "Jacque Fresco"];
+"Jiddu Krishnamurti", "Jacque Fresco", "Robin Cahart-Harris", "Alexander Beiner"];
 
 
 const randomMessage = arr => {
@@ -107,7 +107,3 @@ document.getElementById("btn").addEventListener("click", function() {
     generateMessage();
     document.getElementById("btn").innerHTML = "Generate Another Daily Tao";
 });
-
-
-// Robin Cahart-Harris
-// Alexander Beiner
