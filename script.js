@@ -81,3 +81,16 @@ const mentors = ["Rick Rubin", "Sam Esmail", "George Monbiot", "Peter Joseph", "
 "Eckhart Tolle", "Gabor Mate", "Jordan Peterson", "Robert Sapolsky", "Akala", "Carl Jung", "Sam Harris", "Thomas Brag", "Stephen Fry", "Wim Hof", "Bo Burnham", "Marc Rebillet",
 "Elizabeth Gilbert", "Naomi Klein", "Brian Cox", "Killer Mike", "Viggo Mortensen", "David Attenborough", "Tim Ferriss", "Susan Cain", "Leo Babauta", "Mark Ronson",
 "Jiddu Krishnamurti", "Jacque Fresco"];
+
+
+const generateMessage = (taoisms, albums, mentors) => {
+    const randTaoism = taoisms[Math.floor(Math.random() * taoisms.length)];
+    const randAlbum = albums[Math.floor(Math.random() * albums.length)];
+    const randMentor = mentors[Math.floor(Math.random() * mentors.length)];
+
+    console.log(`Your album of the day is: ${randAlbum.title} by ${randAlbum.artist}\n\n
+    Your mentor for today is: ${randMentor}\n\n
+    And here's your daily dose of ancient wisdom:\n${randTaoism}`);
+}
+
+document.getElementById("btn").addEventListener("click", generateMessage(taoisms, albums, mentors));
