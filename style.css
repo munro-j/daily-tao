@@ -15,3 +15,24 @@ html {
 .sp {
     display: inline-block;
 }
+
+#btn-wrapper {
+    text-align: center;
+}
+
+#btn {
+    padding: 28px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    background-color: rgba(181, 71, 34, 0.4);
+}
+
+#btn:hover {
+    background-color: rgba(181, 71, 34, 0.33);
+    padding: 33px;
+    font-weight: 600;
+    cursor: pointer;
+}
