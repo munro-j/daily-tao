@@ -74,13 +74,14 @@ const albums = [{title: "Midnight Marauders", artist: "A Tribe Called Quest"}, {
 {title: "Midnight Love", artist: "Marvin Gaye"}, {title: "Under Twenty Five", artist: "ENNY"}, {title: "Revolver", artist: "The Beatles"},
 {title: "DROGAS WAVE", artist: "Lupe Fiasco"}, {title: "Avantdale Bowling Club", artist: "Avantdale Bowling Club"}, {title: "LIL BIG MAN", artist: "Maxo"},
 {title: "Punisher", artist: "Phoebe Bridgers"}, {title: "Big Femme Energy Volume 1", artist: "Femme It Forward"}, {title: "Bo Jackson", artist: "Boldy James, The Alchemist"},
-{title: "Guns", artist: "Quelle Chris"}, {title: "Innocent Country", artist: "Chris Keys, Quelle Chris"}, {title: "Shrines", artist: "Armand Hammer"}];
+{title: "Guns", artist: "Quelle Chris"}, {title: "Innocent Country", artist: "Chris Keys, Quelle Chris"}, {title: "Shrines", artist: "Armand Hammer"},
+{title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", artist: "David Bowie"}, {title: "Hunky Dory", artist: "David Bowie"}];
 
 const mentors = ["Rick Rubin", "Sam Esmail", "George Monbiot", "Peter Joseph", "Seth Rogan", "Mac Miller", "Earl Sweatshirt", "Kendrick Lamar", "Noname", "Little Simz",
 "Alex Honnald", "Tommy Caldwell", "Rutger Bregman", "Yanis Varoufakis", "Rupert Sheldrake", "Nassim Haramein", "Michael Pollan", "Ram Dass", "Terence McKenna", "Russell Brand",
 "Eckhart Tolle", "Gabor Mate", "Jordan Peterson", "Robert Sapolsky", "Akala", "Carl Jung", "Sam Harris", "Thomas Brag", "Stephen Fry", "Wim Hof", "Bo Burnham", "Marc Rebillet",
 "Elizabeth Gilbert", "Naomi Klein", "Brian Cox", "Killer Mike", "Viggo Mortensen", "David Attenborough", "Tim Ferriss", "Susan Cain", "Leo Babauta", "Mark Ronson",
-"Jiddu Krishnamurti", "Jacque Fresco", "Robin Cahart-Harris", "Alexander Beiner"];
+"Jiddu Krishnamurti", "Jacque Fresco", "Robin Cahart-Harris", "Alexander Beiner", "Tristan Harris", "Nathaniel Drew"];
 
 
 const randomMessage = arr => {
