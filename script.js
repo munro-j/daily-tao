@@ -92,14 +92,14 @@ const generateMessage = () => {
     const randomAlbum = randomMessage(albums);
     const randomMentor = randomMessage(mentors);
 
-    document.getElementById("ap").innerHTML = "Your album of the day is:";
+    document.getElementById("ap").innerHTML = "Album of the day:";
     document.getElementById("album").innerHTML = randomAlbum.title;
     document.getElementById("artist").innerHTML = `by ${randomAlbum.artist}`;
 
-    document.getElementById("mp").innerHTML = "Your mentor for today is:";
+    document.getElementById("mp").innerHTML = "Mentor for today:";
     document.getElementById("mentor").innerHTML = randomMentor;
 
-    document.getElementById("tp").innerHTML = "And here's your daily dose of ancient wisdom:";
+    document.getElementById("tp").innerHTML = "Daily dose of ancient wisdom:";
     document.getElementById("tao").innerHTML = randomTaoism;
 }
 

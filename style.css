@@ -4,20 +4,47 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
 }
 
 .head {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .display {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.display p {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+#album {
+    font-weight: 700;
+}
+
+#artist {
+    font-style: italic;
 }
 
 .sp {
     display: inline-block;
+    font-weight: 400;
+    font-size: 1.125em;
+}
+
+#tao {
+    font-weight: 400;
+    font-size: 1.125em;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    line-height: 1.2em;
 }
 
 #btn-wrapper {
@@ -26,11 +53,12 @@ body {
 
 #btn {
     padding: 28px;
-    margin-top: 10px;
+    margin-top: 25px;
     border: 2px solid black;
     border-radius: 10px;
     font-size: 1.1em;
     font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
     background-color: rgba(181, 71, 34, 0.4);
 }
 

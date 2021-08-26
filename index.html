@@ -13,19 +13,23 @@
 <body>
     <div class="head">
         <h1>Daily Tao</h1>
-        <h3>Get your daily mentor, music prescription and dose of ancient wisdom!</h3>
+        <h3>Your daily music, knowledge and wisdom prescription!</h3>
     </div>
 
-    <section class="display">
-        <p class="display" id="ap"></p>
-        <p><span id="album" class="sp"></span>&nbsp;<span id="artist" class="sp"></span></p>
-
-        <p class="display" id="mp"></p>
-        <span id="mentor" class="sp"></span>
-
-        <p class="display" id="tp"></p>
-        <pre id="tao" class="sp"></pre>
-    </section>
+    <div class="display">
+        <div id="a-display">
+            <p class="display" id="ap"></p>
+            <div class="sp"><span id="album"></span>&nbsp;<span id="artist"></span></div>
+        </div>
+        <div id="m-display">
+            <p class="display" id="mp"></p>
+            <span id="mentor" class="sp"></span>
+        </div>
+        <div id="t-display">
+            <p class="display" id="tp"></p>
+            <pre id="tao" class="sp"></pre>
+        </div>
+    </div>
 
     <div id="btn-wrapper">
         <button type="button" id="btn">Generate Daily Tao</button>
