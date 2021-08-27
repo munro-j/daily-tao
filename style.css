@@ -8,7 +8,7 @@ body {
 }
 
 .head {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', 'Open Sans', sans-serif;
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 25px;
@@ -58,7 +58,7 @@ body {
     border-radius: 10px;
     font-size: 1.1em;
     font-weight: 500;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Verdana', 'Open Sans', sans-serif;
     background-color: rgba(181, 71, 34, 0.4);
 }
 

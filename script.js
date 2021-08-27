@@ -68,14 +68,14 @@ const albums = [{title: "Midnight Marauders", artist: "A Tribe Called Quest"}, {
 {title: "Fetch The Bolt Cutters", artist: "Fiona Apple"}, {title: "The Powers That B", artist: "Death Grips"}, {title: "Bottomless Pit", artist: "Death Grips"},
 {title: "Pray For Haiti", artist: "Mach-Hommy"}, {title: "Cosmogramma", artist: "Flying Lotus"}, {title: "Run The Jewels 2", artist: "Run The Jewels"},
 {title: "4eva Is A Mighty Long Time", artist: "Big K.R.I.T."}, {title: "Veteran", artist: "JPEGMAFIA"}, {title: "Lonerism", artist: "Tame Impala"},
-{title: "Pinata", artist: "Freddie Gibbs"}, {title: "Donuts", artist: "J Dilla"}, {title: "Manonmars", artist: "Manonmars"},
+{title: "Pinata", artist: "Freddie Gibbs"}, {title: "Donuts", artist: "J Dilla"}, {title: "Hunky Dory", artist: "David Bowie"},
 {title: "Harry Styles", artist: "Harry Styles"}, {title: "Fine Line", artist: "Harry Styles"}, {title: "Toast", artist: "Pond"},
 {title: "Lemonade", artist: "Beyonce"}, {title: "What's Going On", artist: "Marvin Gaye"}, {title: "Trouble Man", artist: "Marvin Gaye"},
 {title: "Midnight Love", artist: "Marvin Gaye"}, {title: "Under Twenty Five", artist: "ENNY"}, {title: "Revolver", artist: "The Beatles"},
 {title: "DROGAS WAVE", artist: "Lupe Fiasco"}, {title: "Avantdale Bowling Club", artist: "Avantdale Bowling Club"}, {title: "LIL BIG MAN", artist: "Maxo"},
 {title: "Punisher", artist: "Phoebe Bridgers"}, {title: "Big Femme Energy Volume 1", artist: "Femme It Forward"}, {title: "Bo Jackson", artist: "Boldy James, The Alchemist"},
 {title: "Guns", artist: "Quelle Chris"}, {title: "Innocent Country", artist: "Chris Keys, Quelle Chris"}, {title: "Shrines", artist: "Armand Hammer"},
-{title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", artist: "David Bowie"}, {title: "Hunky Dory", artist: "David Bowie"}];
+{title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", artist: "David Bowie"}];
 
 const mentors = ["Rick Rubin", "Sam Esmail", "George Monbiot", "Peter Joseph", "Seth Rogan", "Mac Miller", "Earl Sweatshirt", "Kendrick Lamar", "Noname", "Little Simz",
 "Alex Honnald", "Tommy Caldwell", "Rutger Bregman", "Yanis Varoufakis", "Rupert Sheldrake", "Nassim Haramein", "Michael Pollan", "Ram Dass", "Terence McKenna", "Russell Brand",
@@ -108,3 +108,13 @@ document.getElementById("btn").addEventListener("click", function() {
     generateMessage();
     document.getElementById("btn").innerHTML = "Generate Another Daily Tao";
 });
+
+/* 
+    Album covers
+    Mentor resources
+    Quote generator
+    Mindfulness generator
+    Tao Te Ching images
+    Header background image
+    Give users an option to add their own albums, mentors
+*/
