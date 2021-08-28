@@ -63,7 +63,7 @@ const taoisms = ["Free from desire, you realise the mystery.\nCaught in desire, 
 "True words aren't eloquent;\neloquent words aren't true.\nTrue words seem paradoxical\nWise men don't need to prove their point;\nmen who need to prove their point aren't wise.\n\nThe Master has no possessions.\nThe more he does for others,\nthe happier he is.\nThe more he gives to others,\nthe wealthier he is."];
 
 const albums = [{title: "Midnight Marauders", artist: "A Tribe Called Quest"}, {title: "Ultra Mono", artist: "IDLES"}, {title: "Brutalism", artist: "IDLES"},
-{title: "So The Flies Don't Come", artist: "Milo, Kenny Segal"}, {title: "Sad Night Dynamite", artist: "Sad Night Dynamite"}, {title: "What Kinda Music", artist: "Tom Misch, Yussef Dayes"},
+{title: "So The Flies Don't Come", artist: "Milo, Kenny Segal"}, {title: "Sad Night Dynamite", artist: "Sad Night Dynamite"},
 {title: "Black Pumas", artist: "Black Pumas"}, {title: "Shiroi", artist: "Mansur Brown"}, {title: "Collapsed in Sunbeams", artist: "Arlo Parks"},
 {title: "Fetch The Bolt Cutters", artist: "Fiona Apple"}, {title: "The Powers That B", artist: "Death Grips"}, {title: "Bottomless Pit", artist: "Death Grips"},
 {title: "Pray For Haiti", artist: "Mach-Hommy"}, {title: "Cosmogramma", artist: "Flying Lotus"}, {title: "Run The Jewels 2", artist: "Run The Jewels"},
@@ -75,13 +75,14 @@ const albums = [{title: "Midnight Marauders", artist: "A Tribe Called Quest"}, {
 {title: "DROGAS WAVE", artist: "Lupe Fiasco"}, {title: "Avantdale Bowling Club", artist: "Avantdale Bowling Club"}, {title: "LIL BIG MAN", artist: "Maxo"},
 {title: "Punisher", artist: "Phoebe Bridgers"}, {title: "Big Femme Energy Volume 1", artist: "Femme It Forward"}, {title: "Bo Jackson", artist: "Boldy James, The Alchemist"},
 {title: "Guns", artist: "Quelle Chris"}, {title: "Innocent Country", artist: "Chris Keys, Quelle Chris"}, {title: "Shrines", artist: "Armand Hammer"},
-{title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", artist: "David Bowie"}];
+{title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", artist: "David Bowie"}, {title: "Knee-Deep in the North Sea", artist: "Portico Quartet"},
+{title: "What Kinda Music", artist: "Tom Misch, Yussef Dayes"}, {title: "6 Feet Beneath the Moon", artist: "King Krule"}, {title: "The OOZ", artist: "King Krule"}];
 
 const mentors = ["Rick Rubin", "Sam Esmail", "George Monbiot", "Peter Joseph", "Seth Rogan", "Mac Miller", "Earl Sweatshirt", "Kendrick Lamar", "Noname", "Little Simz",
 "Alex Honnald", "Tommy Caldwell", "Rutger Bregman", "Yanis Varoufakis", "Rupert Sheldrake", "Nassim Haramein", "Michael Pollan", "Ram Dass", "Terence McKenna", "Russell Brand",
 "Eckhart Tolle", "Gabor Mate", "Jordan Peterson", "Robert Sapolsky", "Akala", "Carl Jung", "Sam Harris", "Thomas Brag", "Stephen Fry", "Wim Hof", "Bo Burnham", "Marc Rebillet",
 "Elizabeth Gilbert", "Naomi Klein", "Brian Cox", "Killer Mike", "Viggo Mortensen", "David Attenborough", "Tim Ferriss", "Susan Cain", "Leo Babauta", "Mark Ronson",
-"Jiddu Krishnamurti", "Jacque Fresco", "Robin Cahart-Harris", "Alexander Beiner", "Tristan Harris", "Nathaniel Drew"];
+"Jiddu Krishnamurti", "Jacque Fresco", "Robin Cahart-Harris", "Alexander Beiner", "Tristan Harris", "Nathaniel Drew", "Adam Gazzaley", "Ruby Wax"];
 
 
 const randomMessage = arr => {
