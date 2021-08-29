@@ -111,6 +111,13 @@ const albums = [
     { title: "What Kinda Music", artist: "Tom Misch, Yussef Dayes" },
     { title: "6 Feet Beneath the Moon", artist: "King Krule" },
     { title: "The OOZ", artist: "King Krule" },
+    { title: "The Life Of Pablo", artist: "Kanye West" },
+    { title: "My Beautiful Dark Twisted Fantasy", artist: "Kanye West" },
+    { title: "Acid Rap", artist: "Chance The Rapper" },
+    { title: "Back To Black", artist: "Amy Winehouse" },
+    { title: "Not Your Muse", artist: "Celeste" },
+    { title: "Stankonia", artist: "Outkast" },
+    { title: "Aquemini", artist: "Outkast" },
 ];
 
 const mentors = [
@@ -165,6 +172,8 @@ const mentors = [
     "Adam Gazzaley",
     "Ruby Wax",
     "Robert Macfarlane",
+    "Kurt Cobain",
+    "Dave Grohl",
 ];
 
 const randomMessage = (arr) => {
