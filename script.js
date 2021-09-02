@@ -92,7 +92,6 @@ const albums = [
     { title: "What's Going On", artist: "Marvin Gaye" },
     { title: "Trouble Man", artist: "Marvin Gaye" },
     { title: "Midnight Love", artist: "Marvin Gaye" },
-    { title: "Under Twenty Five", artist: "ENNY" },
     { title: "Revolver", artist: "The Beatles" },
     { title: "DROGAS WAVE", artist: "Lupe Fiasco" },
     { title: "Avantdale Bowling Club", artist: "Avantdale Bowling Club" },
@@ -118,6 +117,25 @@ const albums = [
     { title: "Not Your Muse", artist: "Celeste" },
     { title: "Stankonia", artist: "Outkast" },
     { title: "Aquemini", artist: "Outkast" },
+    { title: "The Cold Vein", artist: "Cannibal Ox" },
+    { title: "Entroducing...", artist: "DJ Shadow" },
+    { title: "Miles", artist: "Blu & Exile" },
+    { title: "Enter The Wu-Tang (36 Chambers)", artist: "Wu-Tang Clan" },
+    { title: "Operation: Doomsday", artist: "MF DOOM" },
+    { title: "BORN LIKE THIS", artist: "MF DOOM" },
+    { title: "The College Dropout", artist: "Kanye West" },
+    { title: "Late Registration", artist: "Kanye West" },
+    { title: "Graduation", artist: "Kanye West" },
+    { title: "ye", artist: "Kanye West" },
+    { title: "Donda", artist: "Kanye West" },
+    { title: "R.A.P. Music", artist: "Killer Mike" },
+    { title: "Yeezus", artist: "Kanye West" },
+    { title: "B4.Da.$$", artist: "Joey Bada$$" },
+    { title: "4:44", artist: "Jay Z" },
+    { title: "CLPPNG", artist: "clipping." },
+    { title: "PRhyme", artist: "Phryme" },
+    { title: "Be", artist: "Common" },
+    { title: "xx", artist: "The xx" },
 ];
 
 const mentors = [
@@ -174,6 +192,13 @@ const mentors = [
     "Robert Macfarlane",
     "Kurt Cobain",
     "Dave Grohl",
+    "Finneas",
+    "J. Cole",
+    "James Fadiman",
+    "Fredrick Neichze",
+    "Søren Kierkegaard",
+    "Robin Wall Kimmerer",
+    "Alain de Botton",
 ];
 
 const randomMessage = (arr) => {
