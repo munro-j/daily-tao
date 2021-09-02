@@ -199,6 +199,9 @@ const mentors = [
     "Søren Kierkegaard",
     "Robin Wall Kimmerer",
     "Alain de Botton",
+    "Ruby Wax",
+    "Graham Hancock",
+    "David Whyte",
 ];
 
 const randomMessage = (arr) => {
