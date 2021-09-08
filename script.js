@@ -202,6 +202,16 @@ const mentors = [
     "Ruby Wax",
     "Graham Hancock",
     "David Whyte",
+    "Fritjof Capra",
+    "Carlo Rovelli",
+    "Carl Sagan",
+    "Harry Mack",
+    "Jon Kabat-Zinn",
+    "Marlon Craft",
+    "Stephen King",
+    "Byron Katie",
+    "Martha Beck",
+    "Stephen Mitchell",
 ];
 
 const randomMessage = (arr) => {
