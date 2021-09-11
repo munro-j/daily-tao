@@ -173,6 +173,10 @@ const albums = [
     { title: "RR2: The Bitter Dose", artist: "Roc Marciano" },
     { title: "Smoke Sessions 3", artist: "Lord Apex" },
     { title: "Plain Speaking", artist: "Scallops Hotel" },
+    { title: "Los Angeles", artist: "Flying Lotus" },
+    { title: "You're Dead!", artist: "Flying Lotus" },
+    { title: "Flamagra", artist: "Flying Lotus" },
+    { title: "Yasuke", artist: "Flying Lotus" },
 ];
 
 const mentors = [
