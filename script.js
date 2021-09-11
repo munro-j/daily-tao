@@ -136,6 +136,43 @@ const albums = [
     { title: "PRhyme", artist: "Phryme" },
     { title: "Be", artist: "Common" },
     { title: "xx", artist: "The xx" },
+    { title: "Yesterday's Tomorrow", artist: "Phony Ppl" },
+    { title: "Conflict Of Interest", artist: "Ghetts" },
+    { title: "DEMOTAPE/VEGA", artist: "BERWYN" },
+    { title: "untitled unmastered.", artist: "Kendrick Lamar" },
+    { title: "Untitled (Rise)", artist: "SAULT" },
+    { title: "SOURCE", artist: "Nubya Garcia" },
+    { title: "As The Love Continues", artist: "Mogwai" },
+    { title: "Structuralism", artist: "Alfa Mist" },
+    {
+        title: "A Quiet Farewell, 2016-2018 (Crater Speak)",
+        artist: "Slauson Malone",
+    },
+    { title: "Heiwa", artist: "Mansur Brown" },
+    { title: "Nostrum Grocers", artist: "Nostrum Grocers" },
+    { title: "Word Gets Around", artist: "Stereophonics" },
+    { title: "Performance And Cocktails", artist: "Stereophonics" },
+    { title: "You Gotta Go There To Come Back", artist: "Stereophonics" },
+    { title: "Graffiti On The Train", artist: "Stereophonics" },
+    { title: "Keep The Village Alive", artist: "Stereophonics" },
+    { title: "Kind", artist: "Stereophonics" },
+    { title: "Don't Let The Devil Take Another Day", artist: "Stereophonics" },
+    { title: "The Locket", artist: "Mr Jukes, Barney Artist" },
+    { title: "Demon Days", artist: "Gorillaz" },
+    { title: "Plastic Beach", artist: "Gorillaz" },
+    { title: "Song Machine, Season One: Strange Timez", artist: "Gorillaz" },
+    { title: "Gold-Diggers Sound", artist: "Leon Bridges" },
+    { title: "Tomorrow's People", artist: "Shire T, Maribou State" },
+    { title: "The Death of Adam", artist: "88-Keys" },
+    { title: "Transportation", artist: "Your Old Droog" },
+    { title: "Minus The Bullshit Life's Great", artist: "Nascent" },
+    { title: "Inside (The Songs)", artist: "Bo Burnham" },
+    { title: "Orpheus vs. the Sirens", artist: "Hermit and the Recluse" },
+    { title: "Nehruvia", artist: "Bishop Nehru" },
+    { title: "Surf or Die", artist: "Onoe Caponoe" },
+    { title: "RR2: The Bitter Dose", artist: "Roc Marciano" },
+    { title: "Smoke Sessions 3", artist: "Lord Apex" },
+    { title: "Plain Speaking", artist: "Scallops Hotel" },
 ];
 
 const mentors = [
@@ -212,6 +249,13 @@ const mentors = [
     "Byron Katie",
     "Martha Beck",
     "Stephen Mitchell",
+    "Duncan Trussell",
+    "Alan Watts",
+    "The Alchemist",
+    "Madlib",
+    "Blu",
+    "Flying Lotus",
+    "Milo",
 ];
 
 const randomMessage = (arr) => {
@@ -240,11 +284,12 @@ document.getElementById("btn").addEventListener("click", function () {
 });
 
 /* 
+    "What vibe you feeling today (music, writing, philosophy, etc.)?"
+    Accept simple form input
     Album covers
     Mentor resources
     Quote generator
     Mindfulness generator
-    Tao Te Ching images
     Header background image
-    Give users an option to add their own albums, mentors
+    Give users an option to add their own albums, mentors (and remove)
 */
